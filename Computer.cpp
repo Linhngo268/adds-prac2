@@ -5,8 +5,6 @@ Computer::Computer(){
 
 }
 char Computer::makeMove(){
-    char compu;
-    cout<<"enter move";
-    cin>>compu;
-    return compu;
+     
+    return 'R';
 }

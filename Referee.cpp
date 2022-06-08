@@ -3,13 +3,14 @@ Referee::Referee(){
 
 }
 char Referee::RefGame(Human player1, Computer player2){
-if(player1.makeMove() == 'R'){
+    char playerHuman=player1.makeMove();
+if(playerHuman == 'R'){
     return 'T';
 }
-else if(player1.makeMove()=='P'){
+else if(playerHuman=='P'){
     return 'W';
 }
-else if (player1.makeMove()=='S'){
+else if (playerHuman=='S'){
     return 'L';
 }
 return 0;
