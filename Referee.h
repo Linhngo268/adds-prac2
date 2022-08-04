@@ -5,6 +5,6 @@
 class Referee{
     public:
     Referee();
-    char RefGame(Human player1,Computer player2);
+    char efGame(Human player1,Computer player2);
 };
 #endif
