@@ -4,7 +4,7 @@
 Human::Human(){}
 char Human::makeMove(){
     char c;
-    std::cout<<"enter move";
+    std::cout<<"Enter move: ";
     std::cin>>c;
 return c;
 }
