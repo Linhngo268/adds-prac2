@@ -4,7 +4,7 @@
 Referee::Referee(){
 
 }
-char Referee::RefGame(Human player1, Computer player2){
+char Referee::efGame(Human player1, Computer player2){
     char playerHuman=player1.makeMove();
     char computermove=player2.makeMove();
 if(playerHuman == 'R' && computermove == 'S'){
